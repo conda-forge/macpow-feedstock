@@ -1,5 +1,5 @@
 context:
-  version: "0.1.11"
+  version: "0.1.14"
 
 package:
   name: macpow
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/k06a/macpow/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 7a9b59f8ae019cf88f63db5660929f63899e671b7f6fb3619fe02b886c73903c
+  sha256: 6cdf2511a3272e2f8f23ee5290d7b1c4226b002c8e2ae561bd65743c854833db
 
 build:
   number: 0
@@ -48,4 +48,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - k06a
     - pavelzw
