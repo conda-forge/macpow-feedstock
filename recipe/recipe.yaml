@@ -1,5 +1,5 @@
 context:
-  version: "0.1.14"
+  version: "0.1.16"
 
 package:
   name: macpow
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/k06a/macpow/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 6cdf2511a3272e2f8f23ee5290d7b1c4226b002c8e2ae561bd65743c854833db
+  sha256: 04b2b59d3de0164175d64860e4c2d199cf19410c7c5d830f58253f41e4737674
 
 build:
   number: 0
